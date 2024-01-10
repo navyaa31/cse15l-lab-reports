@@ -1,6 +1,4 @@
-Hello World! 
+# Welcome!
+*Hello World!*
 ***
-*Italic*
-Horizontal rule:
 
-***
