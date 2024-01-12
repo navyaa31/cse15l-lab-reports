@@ -38,7 +38,7 @@ This results in the following output:
 bash: cd: Hello.java: Not a directory
 [user@sahara ~/lecture1]$ 
 ```
-The working directory when the command was run was /home/lecture1. Having the file as the argument does not make sense because the working directory cannot be the path to a file, it van only be the path to a directory. This is why the output is an error, because a file should not be passed in as an argument for cd, so the output tells us that if an argument is passed in, it should be a directory (not a file).
+The working directory when the command was run was /home/lecture1. Having the file as the argument does not make sense because the working directory cannot be the path to a file, it can only be the path to a directory. This is why the output is an error, because a file should not be passed in as an argument for cd, so the output tells us that if an argument is passed in, it should be a directory (not a file).
 
 ## ls with no arguments
 ```
@@ -85,7 +85,7 @@ The working directory when the command was run was /home/lecture1. Having a file
 
 This results in no output. The cursor just returns to the next line.
 
-The working directory when the command was run was /home/lecture1. Having no argument with the cat command does not make sense because the cat command is supposed to print the contents of one or more files that are passed in as arguments. If no arguments are passed in, there contents from no files to print. The output is an error because after cat is entered with no arguments no other commands can be entered in the terminal now.
+The working directory when the command was run was /home/lecture1. Having no argument with the cat command does not make sense because the cat command is supposed to print the contents of one or more files that are passed in as arguments. If no arguments are passed in, there contents from no files to print. The output is an error because after cat is entered with no arguments, following things that are entered will be printed because the cat command is still running.
 
 ## cat with a path to a directory as an argument
 ```
@@ -98,7 +98,7 @@ This results in the following output:
 cat: /home/lecture1: Is a directory
 [user@sahara ~]$ 
 ```
-The working directory when the command was run was /home. Having a file as an argument means that file that is the argument will be listed. This is because the path is an absolute path because there is only a single file within the filesystem /home/lecture1/Hello.class. This output is not an error.
+The working directory when the command was run was /home. The cat command is supposed to print the content in the argument which is why it points out that the path is a directory. The output is an error. It is explaining that the argument is a directory, but it expects a file so that it can print the contents.
 
 ## cat with a path to a file as an argument.
 ```
@@ -120,4 +120,4 @@ public class Hello {
   }
 }[user@sahara ~]$
 ```
-The working directory when the command was run was /home/lecture1. Having a file as an argument means that file that is the argument will be listed. This is because the path is an absolute path because there is only a single file within the filesystem /home/lecture1/Hello.class. This output is not an error.
+The working directory when the command was run was /home. The output is all of the content in the Hello.java file which is the printed lines of code. This output is not an error.
