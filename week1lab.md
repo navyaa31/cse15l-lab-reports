@@ -28,6 +28,17 @@ The working directory when the command was run was /home. Having lecture1/messag
 
 
 ## cd with a path to a file as an argument.
+```
+[user@sahara ~/lecture1]$ cd Hello.java
+```
+
+This results in the following output:
+
+```
+bash: cd: Hello.java: Not a directory
+[user@sahara ~/lecture1]$ 
+```
+The working directory when the command was run was /home/lecture1. Having the file as the argument does not make sense because the working directory cannot be the path to a file, it van only be the path to a directory. This is why the output is an error, because a file should not be passed in as an argument for cd, so the output tells us that if an argument is passed in, it should be a directory (not a file).
 
 ## ls with no arguments
 ```
