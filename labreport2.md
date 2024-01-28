@@ -44,3 +44,6 @@ class ChatServer {
     }
 }
 ```
+
+![Image](lab2part1_1.png)
+![Image](lab2part1_2.png)
