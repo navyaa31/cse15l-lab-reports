@@ -78,4 +78,4 @@ _Terminal interaction without password_
 ![lab2part2_3](lab2part2_3.png)
 
 ## Part 3
-I learned what the different parts of a url meant, such as the domain, path and query. It was interesting to learn that each part of a url has significance and also learn how to process one in a server.
+I learned what the different parts of a url meant, such as the domain, path and query. It was interesting to learn that each part of a url has significance and also learn how to use the urls to create different servers like the Search Engine and the Chat Server.
