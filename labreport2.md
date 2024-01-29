@@ -66,3 +66,16 @@ yash: How are you
 followed by a return to the next line. The ```HashMap hm``` is now changed.
 
 ## Part 2
+_Absolute path to the private key_
+![lab2part2_1](lab2part2_1.png)
+***
+
+_Absolute path to the public key_
+![lab2part2_2](lab2part2_2.png)
+***
+
+_Terminal interaction without password_
+![lab2part2_3](lab2part2_3.png)
+
+## Part 3
+I learned what the different parts of a url meant, such as the domain, path and query. It was interesting to learn that each part of a url has significance and also learn how to process one in a server.
