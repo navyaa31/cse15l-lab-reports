@@ -52,7 +52,7 @@ First, the ```main``` method is called in ```ChatServer``` with the argument of 
 ```
 jpolitz: Hello
 ```
-followed by a return to the next line. The ```HashMap``` hm is now changed.
+followed by a return to the next line. The ```HashMap hm``` is now changed.
 
 ***
 **Screenshot 2:**
