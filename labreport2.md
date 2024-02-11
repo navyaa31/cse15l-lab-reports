@@ -51,7 +51,7 @@ class ChatServer {
 ***
 **Screenshot 1:**
 
-![lab2part1_1](lab2part1_1.png)
+
 First, the ```main``` method is called in ```ChatServer``` with the argument of the port number, 9999 in this case. Then, ```Server```'s start method is called with the arguments of the port number and a new ```Handler``` object. The ```handleRequest``` method is called in the ```Handler``` object with the ```URI``` that can be seen in the screenshot. The ```Handler``` class has two ```ArrayList``` objects as fields that initially have no ```String```s in them. After the ```handleRequest``` method is called, the ```URI``` is processed so that the user and the message are added to the users and texts ```ArrayList```s respectively. The ```String``` called ```returnString``` does not have any characters in it because it is created in the ```handleRequest``` method this way. After the for each loop that goes through the ```ArrayList``` of users and adds the text from the other ```ArrayList``` with the same index, ```returnString```'s value is:
 ```
 jpolitz: Hello
@@ -61,7 +61,7 @@ followed by a return to the next line. The ```String returnString``` is now upda
 ***
 **Screenshot 2:**
 
-![lab2part1_2](lab2part1_2.png)
+
 This use of ```/add-message``` is after the one in the first screenshot. First, the ```main``` method is called in ```ChatServer``` with the argument of the port number, 9999 in this case. Then, ```Server```'s start method is called with the arguments of the port number and a new ```Handler``` object. The ```handleRequest``` method is called in the ```Handler``` object with the ```URI``` that can be seen in the screenshot. The ```Handler``` class has two ```ArrayList``` objects as fields that initially each have one ```String``` in them because this the second time ```/add-message``` is being used. After the ```handleRequest``` method is called, the ```URI``` is processed so that the user and the message are added to the users and texts ```ArrayList```s respectively. The ```String``` called ```returnString``` does not have any characters in it because it is created in the ```handleRequest``` method this way. After the for each loop that goes through the ```ArrayList``` of users and adds the text from the other ```ArrayList``` with the same index, ```returnString```'s value is:
 ```
 jpolitz: Hello
