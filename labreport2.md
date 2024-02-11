@@ -7,20 +7,24 @@ import java.net.URI;
 import java.util.*;
 
 class Handler implements URLHandler {
-    HashMap<String, String> hm = new HashMap<String, String>();
+    ArrayList<String> users = new ArrayList<>();
+    ArrayList<String> texts = new ArrayList<>();
 
     public String handleRequest(URI url) {
 
-        if (url.getPath().contains("/add-message")) {
+        if (url.getPath().equals("/add-message")) {
             String[] parameters = url.getQuery().split("&");
-            String user = parameters[0].substring(2);
-            String s = parameters[1].substring(5);
-            hm.put(user, s);
+
+            String user = parameters[1].split("=")[1];
+            users.add(user);
+
+            String s = parameters[0].split("=")[1];
+            texts.add(s);
 
 
             String returnString = "";
-            for (String key : hm.keySet()) {
-                returnString += hm.get(key) + ": " + key + "\n";
+            for (int i = 0; i < users.size(); i++) {
+                returnString += users.get(i) + ": " + texts.get(i) + "\n";
             }
 
             return returnString;
