@@ -20,5 +20,5 @@ To run the tests again, I typed ```bash test.sh``` again. The following are the 
 ## Step 9
 The following is how I commited my changes.
 ![lab4part9](lab4part9.png)
-Then to push my changes, I typed ```git push origin main```.
+Then to push my changes, I typed ```git push```.
 ![lab4reportstep9redo](lab4reportstep9redo.png)
