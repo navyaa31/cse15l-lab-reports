@@ -1,6 +1,6 @@
 # Lab Report 4
 ## Step 4
-I logged into ineg6 by typing in the line ```ssh n7gupta@ieng6.ucsd.edu```.
+I logged into ieng6 by typing in the line ```ssh n7gupta@ieng6.ucsd.edu```.
 ![lab4part4](lab4part4.png)
 ## Step 5
 I cloned my fork by typing ```git clone``` followed by the url to my fork which was ```git@github.com:navyaa31/lab7fork.git```.
