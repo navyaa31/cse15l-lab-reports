@@ -3,8 +3,8 @@
 I logged into ineg6 by typing in the line ```ssh n7gupta@ieng6.ucsd.edu```.
 ![lab4part4](lab4part4.png)
 ## Step 5
-I cloned my fork by typing ```git clone``` followed by the url to my fork which was ```https://github.com/navyaa31/lab7fork```.
-![lab4part5](lab4part5.png)
+I cloned my fork by typing ```git clone``` followed by the url to my fork which was ```git@github.com:navyaa31/lab7fork.git```.
+![lab4reportstep5redo](lab4reportstep5redo.png)
 ## Step 6
 To run the tests, I typed ```bash test.sh```. The following are the results that demonstrate a test failed.
 ![lab4part6](lab4part6.png)
@@ -21,3 +21,4 @@ To run the tests again, I typed ```bash test.sh``` again. The following are the 
 The following is how I commited my changes.
 ![lab4part9](lab4part9.png)
 Then to push my changes, I typed ```git push origin main```.
+![lab4reportstep9redo](lab4reportstep9redo.png)
