@@ -43,13 +43,6 @@ mkdir grading-area
 git clone $1 student-submission
 echo 'Finished cloning'
 
-
-# Draw a picture/take notes on the directory structure that's set up after
-# getting to this point
-
-# Then, add here code to compile and run, and do any post-processing of the
-# tests
-
 cp student-submission/*.java grading-area
 cp *.java grading-area
 cp -r lib grading-area
@@ -112,13 +105,6 @@ mkdir grading-area
 
 git clone $1 student-submission
 echo 'Finished cloning'
-
-
-# Draw a picture/take notes on the directory structure that's set up after
-# getting to this point
-
-# Then, add here code to compile and run, and do any post-processing of the
-# tests
 
 cp student-submission/*.java grading-area
 cp *.java grading-area
