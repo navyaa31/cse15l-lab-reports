@@ -96,7 +96,7 @@ fi
 
 echo "Score: Pass"
 ```
-
+![error](labreport5error.png)
 ## TA Response
 Interesting problem! One way to go about this issue is to use RegEx, which I suggest to research. In order to use RegEx with grep, you will have to use the -E option. Then, you will have to use the backslash character before each special character, such as the parentheses in this case, in the string you are searching for. Lastly, instead of using a set variable name, try researching how to represent the variable names with RegEx. Let us know if you have any more questions!.
 
@@ -166,7 +166,7 @@ fi
 
 echo "Score: Pass"
 ```
-
+![correct](labreport5correct.png)
 
 ## My Reflection
 Something cool I learned was RegEx. I was struggling with the same issue that I discussed in this report. I asked a TA about this issue and they introduced me to RegEx. It looks like a really useful tool, and I look forward to using it in the future. I like how RegEx can cover so many different cases with simple expressions. It looks like there is a lot to learn with RegEx and I look forward to doing so!
