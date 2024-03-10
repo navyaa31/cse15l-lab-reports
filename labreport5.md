@@ -32,6 +32,7 @@ Here is my file structure:
   - student-submission
     - ListExamples.java
 Here is my grading script and the command line where I ran the script and got the following errors. I used a sample input from the week 6 lab where everything should pass, but the argument names in the method headers are different.
+
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
@@ -89,12 +90,14 @@ fi
 
 echo "Score: Pass"
 ```
+
 ![error](labreport5error.png)
 ## TA Response
 Interesting problem! One way to go about this issue is to use RegEx, which I suggest to research. In order to use RegEx with grep, you will have to use the -E option. Then, you will have to use the backslash character before each special character, such as the parentheses in this case, in the string you are searching for. Lastly, instead of using a set variable name, try researching how to represent the variable names with RegEx. Let us know if you have any more questions!.
 
 ## Student Fix
 I changed my grading script to use the -E option with the grep command. Here is my changed code, I only had to change the two lines that checked for the two method headers. The terminal shows that I ran the script with the same input and got a passing result this time.
+
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
@@ -152,6 +155,7 @@ fi
 
 echo "Score: Pass"
 ```
+
 ![correct](labreport5correct.png)
 
 ## My Reflection
